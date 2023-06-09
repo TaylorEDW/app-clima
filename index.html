@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ClimaSense</title>
+</head>
+<body>
+    <div class="container">
+        <div class="procurar">
+         <i class="fa-solid fa-location-dot"></i>
+         <input type="text" placeholder="Informe sua localização">
+         <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="./images/error (1).png">
+            <p>Desculpe,a localização apresentada é inválida</p>
+        </div>
+
+        <div class="clima">
+            <img src="">
+            <p class="temperatura"></p>
+            <p class="descricao"></p>
+        </div>
+
+        <div class="clima-detalhes">
+            <div class="umidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="text"></div>
+                <span></span>
+                <p>umidade</p>
+            </div>
+            <div class="vento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text"></div>
+                <span></span>
+                <p>Velocidade do vento</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
